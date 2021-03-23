@@ -22,11 +22,6 @@
             "Entap\\Laravel\\Response\\MessagePack\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
@@ -34,9 +29,5 @@
             ],
             "aliases": {}
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "orchestra/testbench": "^6.7"
     }
 }

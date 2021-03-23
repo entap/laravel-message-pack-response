@@ -9,6 +9,8 @@ MessagePack を Response に用いる。
 
 ## Usage
 
+### Installation
+
 `composer.json` にリポジトリを登録する。
 
 ```json
@@ -24,4 +26,12 @@ MessagePack を Response に用いる。
 
 ```sh
 composer require entap/laravel-message-pack-response
+```
+
+### Response
+
+```php
+Route::get('/example.mp', function () {
+    return response()->mpac(User::find(1));
+});
 ```

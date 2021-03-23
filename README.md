@@ -23,5 +23,5 @@ MessagePack を Response に用いる。
 `Composer` を用いて導入する。
 
 ```sh
-composer require entap/laravel-message-pack-response:^1.0-beta
+composer require entap/laravel-message-pack-response
 ```

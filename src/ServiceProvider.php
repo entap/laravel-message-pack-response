@@ -1,17 +1,16 @@
 <?php
-namespace Entap\ExamplePackage;
+namespace Entap\Laravel\Response\MessagePack;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
 {
-  public function boot()
-  {
-    //
-  }
+    public function boot()
+    {
+        //
+    }
 
-  public function register()
-  {
-    //
-  }
+    public function register()
+    {
+    }
 }

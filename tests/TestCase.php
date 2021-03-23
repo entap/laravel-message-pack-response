@@ -1,7 +1,7 @@
 <?php
 namespace Tests;
 
-use Entap\ExamplePackage\ServiceProvider;
+use Entap\Laravel\Response\MessagePack\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

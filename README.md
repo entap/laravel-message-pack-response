@@ -1,9 +1,11 @@
 # entap/laravel-message-pack-response
 
+MessagePack を Response に用いる。
+
 ## Requirement
 
-- PHP 7.2 以上
-- Laravel 7.0 以上
+-   PHP 7.2 以上
+-   Laravel 7.0 以上
 
 ## Usage
 
